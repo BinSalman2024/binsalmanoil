@@ -1,0 +1,92 @@
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #292929;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero .button {
+    margin-top: 20px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.feature {
+    background-color: #524c4c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    text-align: center;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #292929;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter input[type="
